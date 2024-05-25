@@ -1,13 +1,38 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*, html {
+  scroll-behavior: smooth !important;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body { 
+
+  font-family: "Open Sans";
+  
 }
+.mono {
+  font-family: "Roboto mono";
+}
+
+
+.hero {
+    background-image: url("./assets/gradient.png");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ser {
+  background-image: url("./assets/services/service-3.png");
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/services/service-3.png");
+}
+
+
